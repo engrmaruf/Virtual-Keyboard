@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Keyboard</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+            <h1>Virtual Keyboard</h1>
+            <h4>Click on the input box for the keyboard</h4>
+        </div>
+        <div class="keyboard">
+            <div class="texta">
+                <textarea onclick="handekeyboardhide()" class="textarea"></textarea>
+            </div>
+            <div class="keys">
+                <div class="row">
+                    <div class="key number">0</div>
+                    <div class="key number">1</div>
+                    <div class="key number">2</div>
+                    <div class="key number">3</div>
+                    <div class="key number">4</div>
+                    <div class="key number">5</div>
+                    <div class="key number">6</div>
+                    <div class="key number">7</div>
+                    <div class="key number">8</div>
+                    <div class="key number">9</div>
+                </div>
+                <div class="row">
+                    <div class="key tab">Tab</div>
+                    <div class="key letter" data-value="q">q</div>
+                    <div class="key letter" data-value="w">w</div>
+                    <div class="key letter" data-value="e">e</div>
+                    <div class="key letter" data-value="r">r</div>
+                    <div class="key letter" data-value="t">t</div>
+                    <div class="key letter" data-value="y">y</div>
+                    <div class="key letter" data-value="u">u</div>
+                    <div class="key letter" data-value="i">i</div>
+                    <div class="key letter" data-value="o">o</div>
+                    <div class="key letter" data-value="p">p</div>
+                    <div class="key backspace">Backspace</div>
+                </div>
+                <div class="row">
+                    <div class="key caps-lock">Caps Lock</div>
+                    <div class="key letter" data-value="a">a</div>
+                    <div class="key letter" data-value="s">s</div>
+                    <div class="key letter" data-value="d">d</div>
+                    <div class="key letter" data-value="f">f</div>
+                    <div class="key letter" data-value="g">g</div>
+                    <div class="key letter" data-value="h">h</div>
+                    <div class="key letter" data-value="j">j</div>
+                    <div class="key letter" data-value="k">k</div>
+                    <div class="key letter" data-value="l">l</div>
+                    <div class="key enter">Enter</div>
+                </div>
+                <div class="row">
+                    <div class="key shift">Shift</div>
+                    <div class="key letter" data-value="z">z</div>
+                    <div class="key letter" data-value="x">x</div>
+                    <div class="key letter" data-value="c">c</div>
+                    <div class="key letter" data-value="v">v</div>
+                    <div class="key letter" data-value="b">b</div>
+                    <div class="key letter" data-value="n">n</div>
+                    <div class="key letter" data-value="m">m</div>
+                    <div class="key clear">Clear</div>
+                    <div onclick="hidekeys()" class="key hideKeyboard">Hide Kyeboard</div>
+                </div>
+                <div class="row">
+                    <div class="key space">Space</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
